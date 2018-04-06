@@ -4,7 +4,7 @@ include'../PHPCode/ViewAgent.php';
 ?>
 <html>
     <head>
-<title>View Admin</title>
+<title>View Agent</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Easy Admin Panel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -171,11 +171,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 		</div>
-		<!--footer section start-->
-			<footer>
-			   <p>&copy 2015 Easy Admin Panel. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts.</a></p>
-			</footer>
-        <!--footer section end-->
 	</section>
 	
 <script src="../js/userjs/jquery.nicescroll.js"></script>
