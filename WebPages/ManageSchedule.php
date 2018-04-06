@@ -194,7 +194,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             }
                                                             else{
                                                             //Update The Status To N/A
-                                                            $SetInactive = mysqli_query($loginconnect, "UPDATE vesselschedule SET Status='N/A' WHERE ID='$detailsid'");
+                                                            $SetInactive = mysqli_query($loginconnect, "UPDATE vesselschedule SET Status='N/A' WHERE ID='$FindDetails'");
                                                             
                                                             if( $SetInactive){
                                                                  echo'<script>
