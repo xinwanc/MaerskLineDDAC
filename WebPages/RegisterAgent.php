@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="sign-up2">
 								
 									<input type="text" name="Register_UserName" placeholder=" " value="<?php if (!empty($_POST['Register_UserName'])) echo $UserName;?>" required/>
-                                                                         <p class="creating"><?php if(in_array("Username only allow alphanumeric characters<br>", $ErrorArray)) echo "Only alphanumeric characters allowed"; 
+                                                                         <p class="creating"><?php if(in_array("Username only allow alphabenumeric characters<br>", $ErrorArray)) echo "Only alphanumeric characters allowed"; 
                                                     else if (in_array("Username Already Exist<br>", $ErrorArray))echo "Username has exist";?></p>
 								
 							</div>
@@ -123,7 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="sign-up2">
 								
 									<input type="password" name="Register_ConfirmPassword" placeholder=" " required/>
-                                                                        <p class="creating"><?php if(in_array("Password not match<br>", $ErrorArray)) echo "Password Not Match"; else if(in_array("Password only allow alphanumeric characters<br>", $ErrorArray)) echo "Only alphanumeric characters allowed";?></p>
+                                                                        <p class="creating"><?php if(in_array("Password not match<br>", $ErrorArray)) echo "Password Not Match"; else if(in_array("Password only allow alphabenumeric characters<br>", $ErrorArray)) echo "Only alphanumeric characters allowed";?></p>
 							
 							</div>
                                                    
